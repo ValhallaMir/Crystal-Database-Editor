@@ -1,0 +1,10 @@
+C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\bin\Debug\Crystal Database Editor.exe.config
+C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\bin\Debug\Crystal Database Editor.exe
+C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\bin\Debug\Crystal Database Editor.pdb
+C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.csprojAssemblyReference.cache
+C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal_Database_Editor.Main.resources
+C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal_Database_Editor.Properties.Resources.resources
+C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.csproj.GenerateResource.cache
+C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.csproj.CoreCompileInputs.cache
+C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.exe
+C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.pdb

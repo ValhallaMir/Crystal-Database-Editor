@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Crystal Database Editor", "Crystal Database Editor.csproj", "{69071F2A-05AA-49AC-9470-76A9324A5F48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69071F2A-05AA-49AC-9470-76A9324A5F48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69071F2A-05AA-49AC-9470-76A9324A5F48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69071F2A-05AA-49AC-9470-76A9324A5F48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69071F2A-05AA-49AC-9470-76A9324A5F48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E2C5FA3-1B59-433C-BBA8-9FCA3BB25B30}
+	EndGlobalSection
+EndGlobal
