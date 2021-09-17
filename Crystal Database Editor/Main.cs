@@ -1,28 +1,29 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+using System.IO;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Threading.Tasks;
+using System.Collections.Generic;
 
 namespace Crystal_Database_Editor
 {
     public partial class Main : Form
     {
 
-        public ushort maxLevel, startLevel;
-        public long startExp;
-        public byte percent;
+        ushort maxLevel, startLevel;
+        public long startExp, endExp;
         public Main()
         {
             InitializeComponent();
 
+            startLevel = 1;
+            startExp = 100;
+            endExp = 500000;
+            maxLevel = 50;
+
             Startlevel_textbox.Text = "1";
             Startexp_textbox.Text = "100";
-            Percent_textbox.Text = "5";
+            Endexp_textbox.Text = "500000";
             Maxlevel_textbox.Text = "50";
         }
 
@@ -51,17 +52,17 @@ namespace Crystal_Database_Editor
             startExp = long.Parse(ActiveControl.Text);
         }
 
-        private void Percent_textbox_TextChanged(object sender, EventArgs e)
+        private void Endexp_textbox_TextChanged(object sender, EventArgs e)
         {
             if (ActiveControl != sender) return;
-            if (!byte.TryParse(ActiveControl.Text, out _))
+            if (!long.TryParse(ActiveControl.Text, out _))
             {
                 ActiveControl.BackColor = Color.Red;
                 return;
             }
             ActiveControl.BackColor = SystemColors.Window;
 
-            percent = byte.Parse(ActiveControl.Text);
+            endExp = long.Parse(ActiveControl.Text);
         }
 
         private void Maxlevel_textbox_TextChanged(object sender, EventArgs e)
@@ -78,12 +79,21 @@ namespace Crystal_Database_Editor
 
         private void Create_Button_Click(object sender, EventArgs e)
         {
-            //ushort levels = maxLevel - startLevel;
+            int levels = maxLevel - startLevel;
 
-            //for (ushort i = startLevel; i <= levels; i++)
-            //{
-            //
-            //}
+            double B = Math.Log((double)endExp / startExp) / (levels - 1);
+            double A = (double)startExp / (Math.Exp(B) - 1);
+
+            var list = new List<string>();
+
+            for (int i = startLevel; i <= maxLevel; i++)
+            {
+                long old_xp = (long)Math.Round(A * Math.Exp(B * (i - 1)));
+                long new_xp = (long)Math.Round(A * Math.Exp(B * i));
+                list.Add("Level" + i + "=" + (new_xp - old_xp));
+                File.WriteAllLines("ExpList.txt", list);
+            }
+            MessageBox.Show(list.Count + " Levels have been generated.");
         }
     }
 }

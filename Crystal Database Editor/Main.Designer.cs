@@ -30,20 +30,20 @@
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label1 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.Startlevel_textbox = new System.Windows.Forms.TextBox();
-            this.Percent_textbox = new System.Windows.Forms.TextBox();
-            this.Maxlevel_textbox = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.Create_Button = new System.Windows.Forms.Button();
             this.Startexp_textbox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
+            this.Create_Button = new System.Windows.Forms.Button();
+            this.Maxlevel_textbox = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.Endexp_textbox = new System.Windows.Forms.TextBox();
+            this.Startlevel_textbox = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.label2 = new System.Windows.Forms.Label();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -58,7 +58,7 @@
             this.tabControl1.Location = new System.Drawing.Point(13, 13);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(325, 264);
+            this.tabControl1.Size = new System.Drawing.Size(430, 264);
             this.tabControl1.TabIndex = 0;
             // 
             // tabPage1
@@ -68,101 +68,45 @@
             this.tabPage1.Controls.Add(this.Create_Button);
             this.tabPage1.Controls.Add(this.Maxlevel_textbox);
             this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.Percent_textbox);
+            this.tabPage1.Controls.Add(this.Endexp_textbox);
             this.tabPage1.Controls.Add(this.Startlevel_textbox);
             this.tabPage1.Controls.Add(this.label5);
             this.tabPage1.Controls.Add(this.label4);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(317, 238);
+            this.tabPage1.Size = new System.Drawing.Size(422, 238);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Exp Editor";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // tabPage2
+            // Startexp_textbox
             // 
-            this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(317, 238);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Mon Editor";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.Startexp_textbox.Location = new System.Drawing.Point(95, 51);
+            this.Startexp_textbox.MaxLength = 10;
+            this.Startexp_textbox.Name = "Startexp_textbox";
+            this.Startexp_textbox.Size = new System.Drawing.Size(100, 20);
+            this.Startexp_textbox.TabIndex = 8;
+            this.Startexp_textbox.TextChanged += new System.EventHandler(this.Startexp_textbox_TextChanged);
             // 
-            // label1
+            // label7
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 288);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(127, 13);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Created by Valhalla + Jev";
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(30, 54);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 13);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Start Exp : ";
             // 
-            // tabPage3
+            // Create_Button
             // 
-            this.tabPage3.Controls.Add(this.label3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(317, 238);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Item Editor";
-            this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(6, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(66, 13);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Made u look";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 4);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 13);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Made u look";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(22, 28);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(67, 13);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Start Level : ";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 80);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 13);
-            this.label5.TabIndex = 1;
-            this.label5.Text = "% to Increase : ";
-            // 
-            // Startlevel_textbox
-            // 
-            this.Startlevel_textbox.Location = new System.Drawing.Point(95, 25);
-            this.Startlevel_textbox.MaxLength = 5;
-            this.Startlevel_textbox.Name = "Startlevel_textbox";
-            this.Startlevel_textbox.Size = new System.Drawing.Size(100, 20);
-            this.Startlevel_textbox.TabIndex = 2;
-            this.Startlevel_textbox.TextChanged += new System.EventHandler(this.Startlevel_textbox_TextChanged);
-            // 
-            // Percent_textbox
-            // 
-            this.Percent_textbox.Location = new System.Drawing.Point(95, 77);
-            this.Percent_textbox.MaxLength = 2;
-            this.Percent_textbox.Name = "Percent_textbox";
-            this.Percent_textbox.Size = new System.Drawing.Size(100, 20);
-            this.Percent_textbox.TabIndex = 3;
-            this.Percent_textbox.TextChanged += new System.EventHandler(this.Percent_textbox_TextChanged);
+            this.Create_Button.Location = new System.Drawing.Point(120, 129);
+            this.Create_Button.Name = "Create_Button";
+            this.Create_Button.Size = new System.Drawing.Size(75, 23);
+            this.Create_Button.TabIndex = 6;
+            this.Create_Button.Text = "Create";
+            this.Create_Button.UseVisualStyleBackColor = true;
+            this.Create_Button.Click += new System.EventHandler(this.Create_Button_Click);
             // 
             // Maxlevel_textbox
             // 
@@ -182,39 +126,95 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "Max Level : ";
             // 
-            // Create_Button
+            // Endexp_textbox
             // 
-            this.Create_Button.Location = new System.Drawing.Point(120, 129);
-            this.Create_Button.Name = "Create_Button";
-            this.Create_Button.Size = new System.Drawing.Size(75, 23);
-            this.Create_Button.TabIndex = 6;
-            this.Create_Button.Text = "Create";
-            this.Create_Button.UseVisualStyleBackColor = true;
-            this.Create_Button.Click += new System.EventHandler(this.Create_Button_Click);
+            this.Endexp_textbox.Location = new System.Drawing.Point(95, 77);
+            this.Endexp_textbox.MaxLength = 10;
+            this.Endexp_textbox.Name = "Endexp_textbox";
+            this.Endexp_textbox.Size = new System.Drawing.Size(100, 20);
+            this.Endexp_textbox.TabIndex = 3;
+            this.Endexp_textbox.TextChanged += new System.EventHandler(this.Endexp_textbox_TextChanged);
             // 
-            // Startexp_textbox
+            // Startlevel_textbox
             // 
-            this.Startexp_textbox.Location = new System.Drawing.Point(95, 51);
-            this.Startexp_textbox.MaxLength = 5;
-            this.Startexp_textbox.Name = "Startexp_textbox";
-            this.Startexp_textbox.Size = new System.Drawing.Size(100, 20);
-            this.Startexp_textbox.TabIndex = 8;
-            this.Startexp_textbox.TextChanged += new System.EventHandler(this.Startexp_textbox_TextChanged);
+            this.Startlevel_textbox.Location = new System.Drawing.Point(95, 25);
+            this.Startlevel_textbox.MaxLength = 5;
+            this.Startlevel_textbox.Name = "Startlevel_textbox";
+            this.Startlevel_textbox.Size = new System.Drawing.Size(100, 20);
+            this.Startlevel_textbox.TabIndex = 2;
+            this.Startlevel_textbox.TextChanged += new System.EventHandler(this.Startlevel_textbox_TextChanged);
             // 
-            // label7
+            // label5
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(30, 54);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 13);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Start Exp : ";
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(33, 80);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(56, 13);
+            this.label5.TabIndex = 1;
+            this.label5.Text = "End Exp : ";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(22, 28);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 13);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Start Level : ";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.Controls.Add(this.label2);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(317, 238);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Mon Editor";
+            this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 3);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(66, 13);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Made u look";
+            // 
+            // tabPage3
+            // 
+            this.tabPage3.Controls.Add(this.label3);
+            this.tabPage3.Location = new System.Drawing.Point(4, 22);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Size = new System.Drawing.Size(317, 238);
+            this.tabPage3.TabIndex = 2;
+            this.tabPage3.Text = "Item Editor";
+            this.tabPage3.UseVisualStyleBackColor = true;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(4, 4);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 13);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Made u look";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(17, 288);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(127, 13);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Created by Valhalla + Jev";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(350, 313);
+            this.ClientSize = new System.Drawing.Size(455, 312);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.tabControl1);
             this.Name = "Main";
@@ -238,7 +238,7 @@
         private System.Windows.Forms.Button Create_Button;
         private System.Windows.Forms.TextBox Maxlevel_textbox;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox Percent_textbox;
+        private System.Windows.Forms.TextBox Endexp_textbox;
         private System.Windows.Forms.TextBox Startlevel_textbox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
