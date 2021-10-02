@@ -8,3 +8,13 @@ C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database E
 C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.csproj.CoreCompileInputs.cache
 C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.exe
 C:\Users\Scott\Desktop\DatabaseEditor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.pdb
+C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\bin\Debug\Crystal Database Editor.exe.config
+C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\bin\Debug\Crystal Database Editor.exe
+C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\bin\Debug\Crystal Database Editor.pdb
+C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debug\Crystal Database Editor.csproj.AssemblyReference.cache
+C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debug\Crystal_Database_Editor.Main.resources
+C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debug\Crystal_Database_Editor.Properties.Resources.resources
+C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debug\Crystal Database Editor.csproj.GenerateResource.cache
+C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debug\Crystal Database Editor.csproj.CoreCompileInputs.cache
+C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debug\Crystal Database Editor.exe
+C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debug\Crystal Database Editor.pdb
