@@ -18,3 +18,13 @@ C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debu
 C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debug\Crystal Database Editor.csproj.CoreCompileInputs.cache
 C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debug\Crystal Database Editor.exe
 C:\Users\johne\Desktop\Crystal Tool\Versions\Crystal Database Editor v1\obj\Debug\Crystal Database Editor.pdb
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\bin\Debug\Crystal Database Editor.exe.config
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\bin\Debug\Crystal Database Editor.exe
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\bin\Debug\Crystal Database Editor.pdb
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.csproj.AssemblyReference.cache
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal_Database_Editor.Main.resources
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal_Database_Editor.Properties.Resources.resources
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.csproj.GenerateResource.cache
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.csproj.CoreCompileInputs.cache
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.exe
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.pdb
