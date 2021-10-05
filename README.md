@@ -14,3 +14,8 @@ Creators;
 Valhalla https://www.lomcn.org/forum/members/valhalla.27219/
 
 Jev https://www.lomcn.org/forum/members/jev.35547/
+
+Patch Notes:
+
+05/10/21:
+Settings tab added
