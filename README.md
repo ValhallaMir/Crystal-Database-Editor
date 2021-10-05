@@ -5,7 +5,7 @@
 
 LOMCN https://www.lomcn.org/forum/
 
-Lomcn Thread https://www.lomcn.org/forum/threads/crystal-mir-server-tool.106596/#post-1169319
+Lomcn Thread https://www.lomcn.org/forum/threads/crystal-m2-database-editor.106689/
 
 Tutorial
 
