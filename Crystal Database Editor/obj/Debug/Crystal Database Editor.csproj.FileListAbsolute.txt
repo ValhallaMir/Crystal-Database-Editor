@@ -27,3 +27,4 @@ C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\
 C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.csproj.CoreCompileInputs.cache
 C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.exe
 C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.pdb
+C:\Mir2\Crystal\GitHub Uploader\Crystal Database Editor\Crystal-Database-Editor\Crystal Database Editor\obj\Debug\Crystal Database Editor.csproj.AssemblyReference.cache
