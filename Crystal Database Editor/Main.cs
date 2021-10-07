@@ -65,6 +65,16 @@ namespace Crystal_Database_Editor
             endExp = long.Parse(ActiveControl.Text);
         }
 
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Maxlevel_textbox_TextChanged(object sender, EventArgs e)
         {
             if (ActiveControl != sender) return;
