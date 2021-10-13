@@ -75,6 +75,11 @@ namespace Crystal_Database_Editor
 
         }
 
+        private void Patcher_Click(object sender, EventArgs e)
+        {
+            //Val I need you to sort this out. Ive added all the code for the patcher.
+        }
+
         private void Maxlevel_textbox_TextChanged(object sender, EventArgs e)
         {
             if (ActiveControl != sender) return;

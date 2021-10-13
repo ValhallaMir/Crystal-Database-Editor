@@ -1,0 +1,10 @@
+C:\Mir2\Crystal\Crystal Mir 2\mir2-master\Build\Server Tools\AutoPatcherAdmin\AutoPatcherAdmin.exe.config
+C:\Mir2\Crystal\Crystal Mir 2\mir2-master\Build\Server Tools\AutoPatcherAdmin\AutoPatcherAdmin.exe
+C:\Mir2\Crystal\Crystal Mir 2\mir2-master\Build\Server Tools\AutoPatcherAdmin\AutoPatcherAdmin.pdb
+C:\Mir2\Crystal\Crystal Mir 2\mir2-master\AutoPatcherAdmin\obj\Debug\AutoPatcherAdmin.csproj.AssemblyReference.cache
+C:\Mir2\Crystal\Crystal Mir 2\mir2-master\AutoPatcherAdmin\obj\Debug\AutoPatcherAdmin.AMain.resources
+C:\Mir2\Crystal\Crystal Mir 2\mir2-master\AutoPatcherAdmin\obj\Debug\AutoPatcherAdmin.Properties.Resources.resources
+C:\Mir2\Crystal\Crystal Mir 2\mir2-master\AutoPatcherAdmin\obj\Debug\AutoPatcherAdmin.csproj.GenerateResource.cache
+C:\Mir2\Crystal\Crystal Mir 2\mir2-master\AutoPatcherAdmin\obj\Debug\AutoPatcherAdmin.csproj.CoreCompileInputs.cache
+C:\Mir2\Crystal\Crystal Mir 2\mir2-master\AutoPatcherAdmin\obj\Debug\AutoPatcherAdmin.exe
+C:\Mir2\Crystal\Crystal Mir 2\mir2-master\AutoPatcherAdmin\obj\Debug\AutoPatcherAdmin.pdb

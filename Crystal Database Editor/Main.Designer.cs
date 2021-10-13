@@ -30,7 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Main));
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.ExpEditor = new System.Windows.Forms.TabPage();
             this.Startexp_textbox = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.Create_Button = new System.Windows.Forms.Button();
@@ -40,11 +40,12 @@
             this.Startlevel_textbox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.MonEditor = new System.Windows.Forms.TabPage();
             this.label2 = new System.Windows.Forms.Label();
-            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.ItemEditor = new System.Windows.Forms.TabPage();
             this.label3 = new System.Windows.Forms.Label();
-            this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.Custom = new System.Windows.Forms.TabPage();
+            this.button1 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
@@ -54,48 +55,49 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            this.tabPage5 = new System.Windows.Forms.TabPage();
+            this.Patcher = new System.Windows.Forms.TabPage();
             this.label1 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.Settings = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            this.tabPage3.SuspendLayout();
-            this.tabPage4.SuspendLayout();
+            this.ExpEditor.SuspendLayout();
+            this.MonEditor.SuspendLayout();
+            this.ItemEditor.SuspendLayout();
+            this.Custom.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Controls.Add(this.tabPage5);
+            this.tabControl1.Controls.Add(this.ExpEditor);
+            this.tabControl1.Controls.Add(this.MonEditor);
+            this.tabControl1.Controls.Add(this.ItemEditor);
+            this.tabControl1.Controls.Add(this.Custom);
+            this.tabControl1.Controls.Add(this.Patcher);
+            this.tabControl1.Controls.Add(this.Settings);
             this.tabControl1.Location = new System.Drawing.Point(13, 13);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(430, 264);
             this.tabControl1.TabIndex = 0;
             // 
-            // tabPage1
+            // ExpEditor
             // 
-            this.tabPage1.BackColor = System.Drawing.Color.Transparent;
-            this.tabPage1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.tabPage1.Controls.Add(this.Startexp_textbox);
-            this.tabPage1.Controls.Add(this.label7);
-            this.tabPage1.Controls.Add(this.Create_Button);
-            this.tabPage1.Controls.Add(this.Maxlevel_textbox);
-            this.tabPage1.Controls.Add(this.label6);
-            this.tabPage1.Controls.Add(this.Endexp_textbox);
-            this.tabPage1.Controls.Add(this.Startlevel_textbox);
-            this.tabPage1.Controls.Add(this.label5);
-            this.tabPage1.Controls.Add(this.label4);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(422, 238);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Exp Editor";
+            this.ExpEditor.BackColor = System.Drawing.Color.Transparent;
+            this.ExpEditor.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ExpEditor.Controls.Add(this.Startexp_textbox);
+            this.ExpEditor.Controls.Add(this.label7);
+            this.ExpEditor.Controls.Add(this.Create_Button);
+            this.ExpEditor.Controls.Add(this.Maxlevel_textbox);
+            this.ExpEditor.Controls.Add(this.label6);
+            this.ExpEditor.Controls.Add(this.Endexp_textbox);
+            this.ExpEditor.Controls.Add(this.Startlevel_textbox);
+            this.ExpEditor.Controls.Add(this.label5);
+            this.ExpEditor.Controls.Add(this.label4);
+            this.ExpEditor.Location = new System.Drawing.Point(4, 22);
+            this.ExpEditor.Name = "ExpEditor";
+            this.ExpEditor.Padding = new System.Windows.Forms.Padding(3);
+            this.ExpEditor.Size = new System.Drawing.Size(422, 238);
+            this.ExpEditor.TabIndex = 0;
+            this.ExpEditor.Text = "Exp Editor";
             // 
             // Startexp_textbox
             // 
@@ -179,16 +181,16 @@
             this.label4.TabIndex = 0;
             this.label4.Text = "Start Level : ";
             // 
-            // tabPage2
+            // MonEditor
             // 
-            this.tabPage2.Controls.Add(this.label2);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(422, 238);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Mon Editor";
-            this.tabPage2.UseVisualStyleBackColor = true;
+            this.MonEditor.Controls.Add(this.label2);
+            this.MonEditor.Location = new System.Drawing.Point(4, 22);
+            this.MonEditor.Name = "MonEditor";
+            this.MonEditor.Padding = new System.Windows.Forms.Padding(3);
+            this.MonEditor.Size = new System.Drawing.Size(422, 238);
+            this.MonEditor.TabIndex = 1;
+            this.MonEditor.Text = "Mon Editor";
+            this.MonEditor.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -199,15 +201,15 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Made u look";
             // 
-            // tabPage3
+            // ItemEditor
             // 
-            this.tabPage3.Controls.Add(this.label3);
-            this.tabPage3.Location = new System.Drawing.Point(4, 22);
-            this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Size = new System.Drawing.Size(422, 238);
-            this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Item Editor";
-            this.tabPage3.UseVisualStyleBackColor = true;
+            this.ItemEditor.Controls.Add(this.label3);
+            this.ItemEditor.Location = new System.Drawing.Point(4, 22);
+            this.ItemEditor.Name = "ItemEditor";
+            this.ItemEditor.Size = new System.Drawing.Size(422, 238);
+            this.ItemEditor.TabIndex = 2;
+            this.ItemEditor.Text = "Item Editor";
+            this.ItemEditor.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -218,25 +220,34 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Made u look";
             // 
-            // tabPage4
+            // Custom
             // 
-            this.tabPage4.Controls.Add(this.button1);
-            this.tabPage4.Controls.Add(this.label16);
-            this.tabPage4.Controls.Add(this.label15);
-            this.tabPage4.Controls.Add(this.label14);
-            this.tabPage4.Controls.Add(this.label13);
-            this.tabPage4.Controls.Add(this.label12);
-            this.tabPage4.Controls.Add(this.label11);
-            this.tabPage4.Controls.Add(this.label10);
-            this.tabPage4.Controls.Add(this.label9);
-            this.tabPage4.Controls.Add(this.label8);
-            this.tabPage4.Location = new System.Drawing.Point(4, 22);
-            this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage4.Size = new System.Drawing.Size(422, 238);
-            this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "Custom";
-            this.tabPage4.UseVisualStyleBackColor = true;
+            this.Custom.Controls.Add(this.button1);
+            this.Custom.Controls.Add(this.label16);
+            this.Custom.Controls.Add(this.label15);
+            this.Custom.Controls.Add(this.label14);
+            this.Custom.Controls.Add(this.label13);
+            this.Custom.Controls.Add(this.label12);
+            this.Custom.Controls.Add(this.label11);
+            this.Custom.Controls.Add(this.label10);
+            this.Custom.Controls.Add(this.label9);
+            this.Custom.Controls.Add(this.label8);
+            this.Custom.Location = new System.Drawing.Point(4, 22);
+            this.Custom.Name = "Custom";
+            this.Custom.Padding = new System.Windows.Forms.Padding(3);
+            this.Custom.Size = new System.Drawing.Size(422, 238);
+            this.Custom.TabIndex = 3;
+            this.Custom.Text = "Custom";
+            this.Custom.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(326, 199);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 10;
+            this.button1.Text = "Create";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // label16
             // 
@@ -322,15 +333,16 @@
             this.label8.Text = "Classes";
             this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
-            // tabPage5
+            // Patcher
             // 
-            this.tabPage5.Location = new System.Drawing.Point(4, 22);
-            this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage5.Size = new System.Drawing.Size(422, 238);
-            this.tabPage5.TabIndex = 4;
-            this.tabPage5.Text = "Settings";
-            this.tabPage5.UseVisualStyleBackColor = true;
+            this.Patcher.Location = new System.Drawing.Point(4, 22);
+            this.Patcher.Name = "Patcher";
+            this.Patcher.Padding = new System.Windows.Forms.Padding(3);
+            this.Patcher.Size = new System.Drawing.Size(422, 238);
+            this.Patcher.TabIndex = 4;
+            this.Patcher.Text = "Patcher";
+            this.Patcher.UseVisualStyleBackColor = true;
+            this.Patcher.Click += new System.EventHandler(this.Patcher_Click);
             // 
             // label1
             // 
@@ -343,14 +355,15 @@
             this.label1.Text = "Created by Valhalla && Jev";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // button1
+            // Settings
             // 
-            this.button1.Location = new System.Drawing.Point(326, 199);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 10;
-            this.button1.Text = "Create";
-            this.button1.UseVisualStyleBackColor = true;
+            this.Settings.Location = new System.Drawing.Point(4, 22);
+            this.Settings.Name = "Settings";
+            this.Settings.Padding = new System.Windows.Forms.Padding(3);
+            this.Settings.Size = new System.Drawing.Size(422, 238);
+            this.Settings.TabIndex = 5;
+            this.Settings.Text = "Settings";
+            this.Settings.UseVisualStyleBackColor = true;
             // 
             // Main
             // 
@@ -365,14 +378,14 @@
             this.Name = "Main";
             this.Text = "Crystal Database Editor";
             this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
-            this.tabPage2.ResumeLayout(false);
-            this.tabPage2.PerformLayout();
-            this.tabPage3.ResumeLayout(false);
-            this.tabPage3.PerformLayout();
-            this.tabPage4.ResumeLayout(false);
-            this.tabPage4.PerformLayout();
+            this.ExpEditor.ResumeLayout(false);
+            this.ExpEditor.PerformLayout();
+            this.MonEditor.ResumeLayout(false);
+            this.MonEditor.PerformLayout();
+            this.ItemEditor.ResumeLayout(false);
+            this.ItemEditor.PerformLayout();
+            this.Custom.ResumeLayout(false);
+            this.Custom.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -381,7 +394,7 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
+        private System.Windows.Forms.TabPage ExpEditor;
         private System.Windows.Forms.Button Create_Button;
         private System.Windows.Forms.TextBox Maxlevel_textbox;
         private System.Windows.Forms.Label label6;
@@ -389,15 +402,15 @@
         private System.Windows.Forms.TextBox Startlevel_textbox;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TabPage tabPage2;
+        private System.Windows.Forms.TabPage MonEditor;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TabPage tabPage3;
+        private System.Windows.Forms.TabPage ItemEditor;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox Startexp_textbox;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TabPage tabPage4;
-        private System.Windows.Forms.TabPage tabPage5;
+        private System.Windows.Forms.TabPage Custom;
+        private System.Windows.Forms.TabPage Patcher;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label12;
@@ -408,6 +421,7 @@
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TabPage Settings;
     }
 }
 
